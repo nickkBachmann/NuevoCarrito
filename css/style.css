@@ -1,0 +1,66 @@
+* {
+    background-color: azure;
+}
+
+h1 {
+    font-size: 80px;
+    color: cadetblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+}
+
+.list-group {
+    color: rgb(45, 125, 127);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    list-style-type: none;
+}
+
+.col-sm-8 {
+    color: rgb(62, 120, 187);
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.row {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 150px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+.text-right {
+    color: rgb(2, 83, 169);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.btn-danger {
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 75, 75);
+    border-color: rgb(232, 75, 75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.btn-primary {
+    color: rgb(8, 80, 215);
+    background-color: rgb(168, 206, 250);
+    border-color: rgb(168, 206, 250);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
